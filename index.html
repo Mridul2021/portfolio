@@ -13,7 +13,7 @@
     <div>
       <header>
         <nav class="navbar">
-          <a href="#" class="nav-branding">DEV.</a>
+          <a href="#" class="nav-branding">Mridul</a>
           <ul class="nav-menu">
             <li class="nav-item">
               <a href="#welcome" class="'nav-link" alt="about1">Home</a>
@@ -22,16 +22,27 @@
               <a href="#about" class="'nav-link">About me</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="'nav-link">Projects</a>
+              <a href="#skillsnavigate2" class="'nav-link nav-link2"
+                >Technical Skills</a
+              >
+              <a href="#skillsnavigate" class="nav-link1 nav-link"
+                >Technical Skills</a
+              >
             </li>
             <li class="nav-item">
-              <a href="#" class="'nav-link">Technical Skills</a>
+              <a href="#get-in-touch-navigate2" class="nav-link nav-link2"
+                >Get in touch</a
+              >
+              <a href="#get-in-touch-navigate" class="nav-link nav-link1"
+                >Get in touch</a
+              >
+              >
             </li>
             <li class="nav-item">
-              <a href="#" class="'nav-link">My Resume</a>
+              <a href="./resume/Mridul_RESUME.pdf" class="'nav-link">Resume</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="'nav-link">Social</a>
+              <a href="#footer-navigate" class="'nav-link">Social</a>
             </li>
           </ul>
           <div class="hamburger">
@@ -47,6 +58,11 @@
         <div class="home1">HEY! I AM</div>
         <div class="home2">MRIDUL SRIVASTAVA</div>
         <div class="home3">I AM A <span id="element"></span></div>
+      </div>
+      <div class="welcome1">
+        <div class="home1">HEY! I AM</div>
+        <div class="home2">MRIDUL SRIVASTAVA</div>
+        <div class="home3">I AM A <span id="element1"></span></div>
       </div>
     </div>
     <!-- About Section -->
@@ -84,6 +100,13 @@
         width="300"
         height="300"
       />
+      <img
+        src="assets/robot.png"
+        alt=""
+        class="robot"
+        width="300"
+        height="300"
+      />
       <div class="about1">
         <h1>
           Hello I am Mridul! <br />
@@ -111,8 +134,113 @@
         <p>CBSE class 12(2020)- 93.6%</p>
       </div>
     </div>
-    <img src="assets/robot.png" alt="" class="robot" width="300" height="300" />
-    <!-- home section ends -->
+
+    <!-- skills- for desktop view -->
+    <div>
+      <div>
+        <h1 class="skills">Technical Skills</h1>
+        <div class="tech_logos" id="skillsnavigate2">
+          <img src="assets/CPP.png " alt="" class="logos" />
+          <img src="assets/python.png" alt="" class="logos" />
+          <img src="assets/HTML.png" alt="" class="logos" />
+          <img src="assets/CSS.png" alt="" class="logos" />
+          <img src="assets/JavaScript.png" alt="" class="logos" />
+          <img src="assets/react.png" alt="" class="logos" />
+          <img src="assets/NodeJS.png" alt="" class="logos" />
+          <img src="assets/Express.png" alt="" class="logos" />
+          <img src="assets/MongoDB.png" alt="" class="logos" />
+        </div>
+      </div>
+      <!-- skills for mobile view -->
+      <div>
+        <h1 class="skills1" id="skillsnavigate">Technical Skills</h1>
+        <div class="tech_logos1">
+          <img src="assets/CPP.png" alt="" class="logos1" />
+          <img src="assets/python.png" alt="" class="logos1" />
+          <img src="assets/HTML.png" alt="" class="logos1" />
+          <img src="assets/CSS.png" alt="" class="logos1" />
+          <img src="assets/JavaScript.png" alt="" class="logos1" />
+          <img src="assets/react.png" alt="" class="logos1" />
+          <img src="assets/NodeJS.png" alt="" class="logos1" />
+          <img src="assets/Express.png" alt="" class="logos1" />
+          <img src="assets/MongoDB.png" alt="" class="logos1" />
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="get-in-touch" id="get-in-touch-navigate">
+        <div class="con-head">
+          <h1 class="c1" id="get-in-touch-navigate2">
+            <br /><br />Get in touch
+          </h1>
+          <h3 class="c2"><br />email-mridul.coc2006@gmail.com</h3>
+          <h3 class="c3">phone no.- 9580457701</h3>
+        </div>
+        <div class="con-head1">
+          <h1 class="c1"><br /><br />Get in touch</h1>
+          <h3 class="c2"><br />email-mridul.coc2006@gmail.com</h3>
+          <h3 class="c3">phone no.- 9580457701</h3>
+        </div>
+        <div>
+          <div class="contact-me">
+            <div class="container">
+              <form method="POST" action="/save-comment">
+                <label for="name">Name</label>
+                <input type="text" id="name1" name="name1" required />
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required />
+
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  required
+                ></textarea>
+
+                <button type="submit" class="btn" id="butt">
+                  <strong class="send">SEND</strong>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="assets/contact-robot.png" alt="" class="contact-robot" />
+    <div id="footer-navigate">
+      <div>
+        <footer class="footer">
+          <div class="social-icons">
+            <a href="https://www.instagram.com" target="_blank">
+              <img src="assets/instagram.png" alt="Instagram" class="icon" />
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+              <img src="assets/linkedin.png" alt="LinkedIn" class="icon" />
+            </a>
+          </div>
+          <p>&copy; 2023 All rights reserved.</p>
+        </footer>
+      </div>
+      <div>
+        <footer class="footer1">
+          <div class="social-icons">
+            <a href="https://www.instagram.com" target="_blank">
+              <img src="assets/instagram.png" alt="Instagram" class="icon" />
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+              <img src="assets/linkedin.png" alt="LinkedIn" class="icon" />
+            </a>
+          </div>
+          <p>&copy; 2023 Your Website Name. All rights reserved.</p>
+        </footer>
+      </div>
+    </div>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   </body>
 </html>
