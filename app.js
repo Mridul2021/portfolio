@@ -29,14 +29,14 @@ app.post('/save-comment', (req, res) => {
   var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'mridulsrivastava.vit2021@gmail.com',
-      pass: 'fqddomlyxncvnosx'
+      user: 'sender's-email@example.com', //enter sender's email address
+      pass: 'Password'//enter the password
     }
   });
   
   var mailOptions = {
     from: email,
-    to: 'mridul.srivastava2021@vitstudent.ac.in',
+    to: 'receriver's-email@example.com', //enter receiver's email
     subject: 'A new person whats to connect',
     text: ` 
                 Name: ${name1}
