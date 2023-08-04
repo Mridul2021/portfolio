@@ -2,9 +2,12 @@ var typed = new Typed("#element", {
   strings: ["Web Developer", "Competative Programmer", "Data Scientist"],
   typeSpeed: 50,
 });
+var typed = new Typed("#element1", {
+  strings: ["Web Developer", "Competative Programmer", "Data Scientist"],
+  typeSpeed: 50,
+});
 
 //for navbar
-console.log("hamburger");
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
