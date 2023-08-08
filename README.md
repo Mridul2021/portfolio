@@ -1,1 +1,1 @@
-Hosted Link- https://mridul.onrender.com/
+Host Link- https://mridul.onrender.com/
